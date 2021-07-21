@@ -1,0 +1,115 @@
+body {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#firstDiv {
+    display: flex;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 31rem;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(252, 203, 143);
+    text-align: center;
+    justify-content: center;
+    padding: .5rem;
+    border-radius: 5%;
+    box-shadow: 2px 2px 3px rgb(31, 30, 30);
+}
+
+#innerBorderCalculator {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 98%;
+    height: 42rem;
+    background-color: rgb(250, 214, 169);
+    border: .45rem solid black;
+    border-radius: 5%;
+    padding: 5px;
+}
+#displayed {
+    display: flex;
+    width: 90%;
+    height: 22%;
+    background-color: rgb(202, 199, 199);
+    border-radius: 5%;
+    margin: auto;
+    padding: .3rem;
+    box-shadow: 2px 2px 3px rgb(48, 48, 48);
+}
+
+#buttonsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    height: 30rem;
+    background-color: rgb(202, 199, 199);
+    border-radius: 5%;
+    margin: 10px auto auto;
+    box-shadow: 2px 2px 3px rgb(27, 27, 27);
+}
+
+.button {
+    background-color: #8f7630a6;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: .33rem;
+    border-radius: 100%;
+    box-shadow: 2px 2px 3px rgb(68, 68, 68);
+}
+
+.screen {
+    box-sizing: border-box;
+    background-color: #8f7630a6;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 45%;
+    font-size: 16px;
+    margin: .5rem;
+    border-radius: 10%;
+    box-shadow: 2px 2px 3px rgb(94, 93, 93);
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+#valueDisplayed {
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+#clear {
+    position:fixed;
+	width:7rem;
+	height:7rem;
+	left:20rem;
+    bottom: 30rem;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+#backspace {
+    position:fixed;
+	width:7rem;
+	height:7rem;
+	left:20rem;
+    bottom: 20rem;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
